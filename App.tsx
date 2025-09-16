@@ -21,6 +21,7 @@ import ParentChildMemoization from './src/ParentChildMemoization';
 import CustomHook from './src/CustomHook';
 import DarkMode from './src/DarkMode';
 import ResponsiveCardGrid from './src/ResponsiveCardGrid';
+import NewsPage from './src/News/NewsPage';
 
 
 const Stack = createNativeStackNavigator();
@@ -43,6 +44,7 @@ function App() {
           <Stack.Screen name="CustomHook" component={CustomHook} />
           <Stack.Screen name="DarkMode" component={DarkMode} />
           <Stack.Screen name="ResponsiveCardGrid" component={ResponsiveCardGrid} />
+          <Stack.Screen name="NewsPage" component={NewsPage} />
         </Stack.Navigator>
       </NavigationContainer>
     </>

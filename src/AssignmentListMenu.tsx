@@ -14,6 +14,7 @@ const assignments = [
     { id: '8', title: 'CustomHook' },
     { id: '10', title: 'DarkMode' },
     { id: '11', title: 'ResponsiveCardGrid' },
+    { id: '12', title: 'NewsPage' }
 ]
 
 import { NavigationProp } from '@react-navigation/native';
